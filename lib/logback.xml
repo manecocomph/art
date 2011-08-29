@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- For assistance related to logback-translator or configuration  -->
+<!-- files in general, please contact the logback user mailing list -->
+<!-- at http://www.qos.ch/mailman/listinfo/logback-user             -->
+<!--                                                                -->
+<!-- For professional support please see                            -->
+<!--    http://www.qos.ch/shop/products/professionalSupport         -->
+<!--                                                                -->
+<configuration>
+  <appender name="consoleAppender" class="ch.qos.logback.core.ConsoleAppender">
+    <!-- Tests run on modern PCs show that buffering related property -->
+    <!-- "ImmediateFlush" has negligible impact and will be ignored.  -->
+    <Target>System.err</Target>
+    <encoder>
+      <pattern>%d %-5p %m %n</pattern>
+    </encoder>
+    <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+      <level>ERROR</level>
+    </filter>
+  </appender>
+  <appender name="logfile" class="ch.qos.logback.core.rolling.RollingFileAppender">
+    <!--See also http://logback.qos.ch/manual/appenders.html#RollingFileAppender-->
+    <File>INFO_log.html</File>
+    <Append>true</Append>
+    <layout class="ch.qos.logback.classic.html.HTMLLayout">
+      <!--See http://logback.qos.ch/manual/layouts.html#ClassicHTMLLayout-->
+      <!--for documentation-->
+      <LocationInfo>true</LocationInfo>
+      <Title>title:</Title>
+      <Pattern>%relative%thread%mdc%level%logger%msg</Pattern>
+    </layout>
+    <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+      <level>INFO</level>
+    </filter>
+    <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+      <maxIndex>3</maxIndex>
+      <FileNamePattern>INFO_log.html .%i</FileNamePattern>
+    </rollingPolicy>
+    <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+      <MaxFileSize>1MB</MaxFileSize>
+    </triggeringPolicy>
+  </appender>
+  <appender name="MAIL" class="ch.qos.logback.classic.net.SMTPAppender">
+    <!--See http://logback.qos.ch/manual/appenders.html#SMTPAppender-->
+    <!--for documentation-->
+    <From>xiatian@gmail.com</From>
+    <SMTPHost>smtp.ebay.com</SMTPHost>
+    <Subject>Log4J Message</Subject>
+    <To>xiatian@gmail.com</To>
+    <BufferSize>10</BufferSize>
+    <layout class="ch.qos.logback.classic.PatternLayout">
+      <pattern>%d - %c -%-4r [%t] %-5p %c %x - %m %n</pattern>
+    </layout>
+    <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+      <level>INFO</level>
+    </filter>
+  </appender>
+  <root level="INFO">
+    <appender-ref ref="consoleAppender"/>
+    <appender-ref ref="logfile"/>
+    <appender-ref ref="MAIL"/>
+  </root>
+</configuration>

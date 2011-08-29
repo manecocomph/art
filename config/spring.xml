@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC
+    "-//SPRING//DTD BEAN//EN"
+    "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+
+    <!-- Bean configuration -->
+    <bean id="proxyBean"
+        class="org.springframework.aop.framework.ProxyFactoryBean">
+        <!--<property name="proxyInterfaces">
+            <value>roseindia.net.aop.SimpleInterface</value>
+        </property>-->
+        <property name="target">
+            <ref local="beanTarget" />
+        </property>
+        <property name="interceptorNames">
+            <list>
+                <value>theTracingAroundAdvisor</value>
+            </list>
+        </property>
+    </bean>
+
+    <!-- Bean Classes -->
+    <bean id="beanTarget" class="com.maneco.art.aop.MyMethods" />
+
+    <!-- Advisor pointcut definition for before advice -->
+    <bean id="theTracingAroundAdvisor"
+        class="org.springframework.aop.support.RegexpMethodPointcutAdvisor">
+        <property name="advice">
+            <ref local="theTracingAroundAdvice" />
+        </property>
+        <property name="pattern">
+            <value>.*</value>
+        </property>
+    </bean>
+
+    <!-- Advice classes -->
+    <bean id="theTracingAroundAdvice"
+        class="com.maneco.art.aop.AroundAdviceExample" />
+
+</beans>

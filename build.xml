@@ -1,0 +1,40 @@
+<project name="trail" basedir="." default="deploy">
+
+    <property name="src.dir"     value="src"/>
+    <property name="classes.dir" value="bin"/>
+	<property name="server.dir" value="C:/work/tomcat/webapps/trail"/>
+    <property name="jar.dir"     value="${server.dir}/WEB-INF"/>
+
+    <target name="clean">
+        <delete dir="${build.dir}"/>
+    </target>
+
+    <target name="compile">
+        <javac srcdir="${src.dir}" destdir="${classes.dir}"/>
+    </target>
+	
+	<target name="cpConfig">
+		<copyfile dest="${jar.dir}/JCSAdminServlet.velocity.properties" src="config/JCSAdminServlet.velocity.properties"/>
+	</target>
+	
+	<target name="cpLib">
+		<copydir dest="${jar.dir}/lib" src="lib"></copydir>
+	</target>
+	
+	<target name="cpWebXml">
+		<copyfile dest="${jar.dir}/web.xml" src="resource/web.xml"/>
+	</target>
+	
+	<target name="cpJsp">
+		<copydir dest="${jar.dir}" src="resource/web"></copydir>
+	</target>
+	<target name="cpJsp1">
+			<copydir dest="${jar.dir}/.." src="resource/web"></copydir>
+		</target>
+    <target name="jar" depends="compile">
+        <jar destfile="${jar.dir}/lib/${ant.project.name}.jar" basedir="${classes.dir}"/>
+    </target>
+
+    <target name="deploy" depends="jar,cpWebXml,cpJsp"/>
+
+</project>

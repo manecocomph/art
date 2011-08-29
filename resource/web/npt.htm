@@ -1,0 +1,110 @@
+<div>
+	<div id="header" style="width:100%; heigt:50px;border: thick double yellow;">
+		<h1>Welcome To No Pending Task System</h1>
+		<input type="button" name="a" value="click me" onclick="refreshTasks()"/>
+	</div>
+	<div id="main" style="width:100%; heigt:50px; border: thick double red;">
+		<div id="taskList" style="width:14%; height:500px; border: thick double gray; float:left; clear:left">
+			<div id="myTasks" style="width:100%; height:150px;" >
+				<h3>My Tasks</h3>
+				<ul id="myTasks-ul">
+					<li>be a good baby</li>
+					<li>be a good baby</li>
+				</ul>
+			</div>
+			<div id="myTasks" style="width:100%; height:350px;" >
+				<h3>All Tasks</h3>
+				<ul>
+					<li>be a good baby</li>
+					<li>be a good baby</li>
+					<li>be a good baby</li>
+					<li>be a good baby</li>
+					<li>be a good baby</li>
+				</ul>
+			</div>
+		</div>
+		<div id="chatMain" style="width:75%; height:500px; border: thick double blue; float:left;">
+			<textarea id="msgs" style="width:100%; height:400px;" style="text-align:left;">
+				Eric:	This is first line;
+				Wesley:	thi si s second tline'
+				Iris:	Hello bye
+			</textarea>
+			<textarea id="myMsg" style="width:80%; height:100px;">
+				I wnat to say: you are right
+			</textarea>
+			<div id="actions" style="width:18%; height:100px; float:right;">
+				<input type="button" value="Add Task" style="width:89px" />
+				<input type="button" value="Send" style="width:89px" />
+			</div>
+		</div>
+		<div id="userList" style="width:8\%; height:500px; border: thick double black; float:right; clear:right">
+			<h3>All Usera</h3>
+			<ul>
+				<li>Eric</li>
+				<li>Iris</li>
+				<li>Eric</li>
+				<li>Iris</li>
+				<li>Eric</li>
+				<li>Iris</li>
+				<li>Iris</li>
+				<li>Eric</li>
+				<li>Eric</li>
+				<li>Iris</li>
+			</ul>
+		</div>
+	</div>
+<div>
+
+	<div id="login" style="display:none; position:absolute; top:1%; left:1%; z-index:600; width:98%; height:98%; background-color:#666666; filter: alpha(opacity=70); opacity: 0.7;">
+		<div id="loginArea" style="position:absolute; top:45%; left:40%; background-color:#0099FF;">
+			<table style="padding:38px;">
+				<tr>
+					<td>Name</td>
+					<td><INPUT id="userName" TYPE='text' VALUE="eric" NAME="userName" SIZE=15></td>
+				</tr>
+				<tr>
+					<td>Nick Name</td>
+					<td><INPUT id="nickName" TYPE='text' VALUE="Eric_CDC_RE" NAME="nickName" SIZE=15></td>
+				</tr>
+				<tr>
+					<td><INPUT TYPE='button' VALUE="Login" NAME="submit" SIZE=15 onclick="login()"></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	
+	<script language="JavaScript">
+		<!--
+		var userId = 1;
+		var groupName = "test";
+		
+		function refreshTasks() {
+			if (window.XMLHttpRequest) {// code for IE7+, Firefox, Chrome, Opera, Safari
+				xmlhttp=new XMLHttpRequest();
+			} else {// code for IE6, IE5
+				xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+			}
+			
+			xmlhttp.onreadystatechange=function() {
+				if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+					if(0 == xmlhttp.responseXML.getElementsByTagName("result")[0].childNodes[0].nodeValue) {
+						var submitedTasks = xmlhttp.responseXML.getElementsByTagName("mySubmitedTask")[0].getElementsByTagName("Task");
+						var mySubmitTaskHtml = "";
+						for (var i = 0; i < submitedTasks.length; i++) {
+							//alert(submitedTasks[i].textContent);
+							//alert(submitedTasks[i].tagName);
+							alert(submitedTasks[i].getElementsByTagName('name')[0].textContent);
+							mySubmitTaskHtml = mySubmitTaskHtml + "<li>" + submitedTasks[i].getElementsByTagName('name')[0].textContent + "</li>"
+						}
+						document.getElementById('myTasks-ul').innerHTML = mySubmitTaskHtml;
+					}
+				}
+			}
+			
+			var url = "/trail/npt/task_?userId=" + userId + "&groupName=" + groupName;
+			alert(url);
+			xmlhttp.open("GET", url, true);
+			xmlhttp.send();
+		}
+		-->
+	</script>
