@@ -4,203 +4,51 @@
 	<classpathentry kind="src" path="config"/>
 	<classpathentry kind="src" path="test"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
-	<classpathentry kind="lib" path="lib/mysql-connector-java-5.0.8-bin.jar"/>
-	<classpathentry kind="lib" path="lib/jcs-1.3.jar" sourcepath="C:/work/projects/cache/jcs-1.3-src/jcs-1.3/src/java"/>
-	<classpathentry kind="lib" path="lib/log4j-1.2.16.jar"/>
-	<classpathentry kind="lib" path="lib/commons-logging-1.1.jar"/>
-	<classpathentry kind="lib" path="lib/eric.jar"/>
-	<classpathentry kind="lib" path="lib/servlet-api.jar"/>
-	<classpathentry kind="lib" path="lib/cxf-2.3.2.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/activation-1.1.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/annogen-0.1.0.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/autopilotws_criterion.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/axiom-api-1.2.7.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/axiom-dom-1.2.7.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/axiom-impl-1.2.7.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/axis.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/axis2-adb-1.4.1.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/axis2-adb-codegen-1.4.1.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/axis2-ant-plugin-1.4.1.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/axis2-clustering-1.4.1.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/axis2-codegen-1.4.1.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/axis2-corba-1.4.1.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/axis2-fastinfoset-1.4.1.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/axis2-java2wsdl-1.4.1.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/axis2-jaxbri-1.4.1.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/axis2-jaxws-1.4.1.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/axis2-jaxws-api-1.4.1.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/axis2-jibx-1.4.1.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/axis2-json-1.4.1.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/axis2-jws-api-1.4.1.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/axis2-kernel-1.4.1.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/axis2-metadata-1.4.1.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/axis2-mtompolicy-1.4.1.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/axis2-saaj-1.4.1.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/axis2-saaj-api-1.4.1.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/axis2-spring-1.4.1.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/axis2-xmlbeans-1.4.1.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/backport-util-concurrent-3.1.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/bootstrap.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/classes12.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/commons-codec-1.3.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/commons-discovery-0.2.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/commons-fileupload-1.2.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/commons-httpclient-3.1.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/commons-io-1.4.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/commons-logging-1.1.1.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/ffdc.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/geronimo-annotation_1.0_spec-1.1.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/geronimo-stax-api_1.0_spec-1.0.1.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/httpcore-4.0-beta1.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/httpcore-nio-4.0-beta1.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/jakarta-regexp-1.2.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/jalopy-1.5rc3.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/jaxb-api-2.1.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/jaxb-impl-2.1.6.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/jaxb-xjc-2.1.6.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/jaxen-1.1.1.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/jaxrpc.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/jettison-1.0-RC2.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/jibx-bind-1.1.5.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/jibx-run-1.1.5.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/jms.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/Kernel.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/log4j-1.2.8.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/log4j-1.2.15.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/mail-1.4.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/mex-1.4.1.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/neethi-2.0.4.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/ojdbc14.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/qaautomation.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/ras.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/saaj.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/servlet-api.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/soapmonitor-1.4.1.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/uKernelCore-1.17.6.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/webservices.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/woden-api-1.0M8.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/woden-impl-dom-1.0M8.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/wsdl4j-1.6.2.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/wsexception.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/wssec.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/wstx-asl-3.2.4.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/xalan-2.7.0.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/xercesImpl-2.8.1.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/xml-apis-1.3.04.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/xmlbeans-2.3.0.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/xmlParserAPIs.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/xml-resolver-1.2.jar"/>
-	<classpathentry kind="lib" path="C:/work/autobuild/jars/XmlSchema-1.4.2.jar"/>
-	<classpathentry kind="lib" path="lib/commons-dbcp-1.4.jar"/>
+	<classpathentry kind="lib" path="lib/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="lib/antlr-3.2.jar"/>
+	<classpathentry kind="lib" path="lib/antlr-runtime-3.2.jar"/>
+	<classpathentry kind="lib" path="lib/aopalliance-1.0.jar"/>
+	<classpathentry kind="lib" path="lib/aopalliance-alpha1.jar"/>
+	<classpathentry kind="lib" path="lib/asm-3.3.jar"/>
+	<classpathentry kind="lib" path="lib/bcprov-jdk15-1.45.jar"/>
+	<classpathentry kind="lib" path="lib/cglib-2.2.2.jar"/>
 	<classpathentry kind="lib" path="lib/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="lib/commons-dbcp-1.4.jar"/>
 	<classpathentry kind="lib" path="lib/commons-lang-2.5.jar"/>
 	<classpathentry kind="lib" path="lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/commons-logging-1.1.jar"/>
 	<classpathentry kind="lib" path="lib/commons-pool-1.5.5.jar"/>
+	<classpathentry kind="lib" path="lib/cxf-2.3.2.jar"/>
 	<classpathentry kind="lib" path="lib/cxf-manifest.jar"/>
 	<classpathentry kind="lib" path="lib/cxf-xjc-boolean-2.3.2.jar"/>
 	<classpathentry kind="lib" path="lib/cxf-xjc-bug671-2.3.2.jar"/>
 	<classpathentry kind="lib" path="lib/cxf-xjc-dv-2.3.2.jar"/>
 	<classpathentry kind="lib" path="lib/cxf-xjc-ts-2.3.2.jar"/>
-	<classpathentry kind="lib" path="lib/icews.jar"/>
-	<classpathentry kind="lib" path="lib/ice-3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib/antlr-2.7.7.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib/antlr-3.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib/antlr-runtime-3.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib/aopalliance-1.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib/asm-3.3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib/bcprov-jdk15-1.45.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib/commons-collections-3.2.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib/commons-lang-2.5.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib/commons-logging-1.1.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib/commons-pool-1.5.5.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib/cxf-2.3.3.jar" sourcepath="C:/TDDOWNLOAD/apache-cxf-2.3.3-src/apache-cxf-2.3.3-src"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib/cxf-manifest.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib/cxf-xjc-boolean-2.3.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib/cxf-xjc-bug671-2.3.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib/cxf-xjc-dv-2.3.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib/cxf-xjc-ts-2.3.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib/FastInfoset-1.2.8.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib/geronimo-activation_1.1_spec-1.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib/geronimo-annotation_1.0_spec-1.1.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib/geronimo-javamail_1.4_spec-1.7.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib/geronimo-jaxws_2.2_spec-1.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib/geronimo-jms_1.1_spec-1.1.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib/geronimo-servlet_3.0_spec-1.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib/geronimo-stax-api_1.0_spec-1.0.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib/geronimo-ws-metadata_2.0_spec-1.1.3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib/jaxb-api-2.2.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib/jaxb-impl-2.2.1.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib/jaxb-xjc-2.2.1.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib/jettison-1.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib/jetty-continuation-7.2.2.v20101205.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib/jetty-http-7.2.2.v20101205.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib/jetty-io-7.2.2.v20101205.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib/jetty-server-7.2.2.v20101205.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib/jetty-util-7.2.2.v20101205.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib/jra-1.0-alpha-4.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib/js-1.7R2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib/jsr311-api-1.1.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib/neethi-2.0.4.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib/oro-2.0.8.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib/saaj-api-1.3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib/saaj-impl-1.3.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib/serializer-2.7.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib/slf4j-api-1.6.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib/slf4j-jdk14-1.6.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib/spring-aop-3.0.5.RELEASE.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib/spring-asm-3.0.5.RELEASE.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib/spring-beans-3.0.5.RELEASE.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib/spring-context-3.0.5.RELEASE.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib/spring-core-3.0.5.RELEASE.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib/spring-expression-3.0.5.RELEASE.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib/spring-jms-3.0.5.RELEASE.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib/spring-tx-3.0.5.RELEASE.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib/spring-web-3.0.5.RELEASE.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib/stax2-api-3.0.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib/stringtemplate-3.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib/velocity-1.6.4.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib/woodstox-core-asl-4.0.8.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib/wsdl4j-1.6.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib/wss4j-1.5.11.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib/xalan-2.7.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib/xmlbeans-2.4.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib/xml-resolver-1.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib/XmlSchema-1.4.7.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib/xmlsec-1.4.4.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib/endorsed/geronimo-jaxws_2.2_spec-1.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib/endorsed/jaxb-api-2.2.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib-samples/commons-httpclient-3.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib-samples/geronimo-ejb_3.0_spec-1.0.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib-samples/jetty-security-7.2.2.v20101205.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib-samples/jetty-servlet-7.2.2.v20101205.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib-samples/jetty-webapp-7.2.2.v20101205.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib-samples/jetty-xml-7.2.2.v20101205.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/apache-cxf-2.3.3/apache-cxf-2.3.3/lib-samples/junit-4.4.jar"/>
-	<classpathentry kind="lib" path="lib/hessian-4.0.7.jar" sourcepath="C:/Users/xiatian/Downloads/hessian-4.0.7-src.jar"/>
-	<classpathentry kind="lib" path="lib/moyocore_x64.dll"/>
-	<classpathentry kind="lib" path="lib/moyocore.jar"/>
-	<classpathentry kind="lib" path="lib/joc-v3.0.2-eval.jar"/>
-	<classpathentry kind="lib" path="lib/logback-access-0.9.28.jar"/>
-	<classpathentry kind="lib" path="lib/logback-classic-0.9.28.jar"/>
-	<classpathentry kind="lib" path="lib/logback-core-0.9.28.jar"/>
-	<classpathentry kind="lib" path="lib/spymemcached-2.7.jar"/>
-	<classpathentry kind="lib" path="lib/antlr-2.7.7.jar"/>
-	<classpathentry kind="lib" path="lib/antlr-3.2.jar"/>
-	<classpathentry kind="lib" path="lib/antlr-runtime-3.2.jar"/>
-	<classpathentry kind="lib" path="lib/aopalliance-1.0.jar"/>
-	<classpathentry kind="lib" path="lib/asm-3.3.jar"/>
-	<classpathentry kind="lib" path="lib/bcprov-jdk15-1.45.jar"/>
+	<classpathentry kind="lib" path="lib/eric.jar"/>
 	<classpathentry kind="lib" path="lib/FastInfoset-1.2.8.jar"/>
+	<classpathentry kind="lib" path="lib/hessian-4.0.7.jar"/>
+	<classpathentry kind="lib" path="lib/ice-3.jar"/>
+	<classpathentry kind="lib" path="lib/icews.jar"/>
+	<classpathentry kind="lib" path="lib/jcs-1.3.jar"/>
+	<classpathentry kind="lib" path="lib/joc-v3.0.2-eval.jar"/>
 	<classpathentry kind="lib" path="lib/jra-1.0-alpha-4.jar"/>
 	<classpathentry kind="lib" path="lib/js-1.7R2.jar"/>
 	<classpathentry kind="lib" path="lib/jsr311-api-1.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="lib/logback-access-0.9.28.jar"/>
+	<classpathentry kind="lib" path="lib/logback-classic-0.9.28.jar"/>
+	<classpathentry kind="lib" path="lib/logback-core-0.9.28.jar"/>
 	<classpathentry kind="lib" path="lib/logback.xml"/>
+	<classpathentry kind="lib" path="lib/moyocore_x64.dll"/>
+	<classpathentry kind="lib" path="lib/moyocore.jar"/>
+	<classpathentry kind="lib" path="lib/mysql-connector-java-5.0.8-bin.jar"/>
 	<classpathentry kind="lib" path="lib/neethi-2.0.4.jar"/>
 	<classpathentry kind="lib" path="lib/oro-2.0.8.jar"/>
 	<classpathentry kind="lib" path="lib/saaj-api-1.3.jar"/>
 	<classpathentry kind="lib" path="lib/saaj-impl-1.3.2.jar"/>
-	<classpathentry kind="lib" path="lib/selenium-java-2.4.0.jar" sourcepath="C:/Users/xiatian/Downloads/selenium-java-2.4.0/selenium-2.4.0/selenium-java-2.4.0-srcs.jar"/>
+	<classpathentry kind="lib" path="lib/selenium-java-2.4.0.jar"/>
 	<classpathentry kind="lib" path="lib/serializer-2.7.1.jar"/>
+	<classpathentry kind="lib" path="lib/servlet-api.jar"/>
 	<classpathentry kind="lib" path="lib/slf4j-api-1.6.1.jar"/>
 	<classpathentry kind="lib" path="lib/spring-aop-3.0.5.RELEASE.jar"/>
 	<classpathentry kind="lib" path="lib/spring-asm-3.0.5.RELEASE.jar"/>
@@ -208,6 +56,7 @@
 	<classpathentry kind="lib" path="lib/spring-context-3.0.5.RELEASE.jar"/>
 	<classpathentry kind="lib" path="lib/spring-core-3.0.5.RELEASE.jar"/>
 	<classpathentry kind="lib" path="lib/spring-expression-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spymemcached-2.7.jar"/>
 	<classpathentry kind="lib" path="lib/stax2-api-3.0.2.jar"/>
 	<classpathentry kind="lib" path="lib/stringtemplate-3.2.jar"/>
 	<classpathentry kind="lib" path="lib/velocity-1.6.4.jar"/>
@@ -219,82 +68,7 @@
 	<classpathentry kind="lib" path="lib/xmlbeans-2.4.0.jar"/>
 	<classpathentry kind="lib" path="lib/XmlSchema-1.4.7.jar"/>
 	<classpathentry kind="lib" path="lib/xmlsec-1.4.4.jar"/>
-	<classpathentry kind="lib" path="lib/aopalliance-alpha1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/antlr-2.7.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/aopalliance-1.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/classworlds-1.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/commons-beanutils-1.7.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/commons-chain-1.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/commons-collections-3.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/commons-digester-2.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/commons-fileupload-1.2.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/commons-io-1.3.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/commons-lang-2.3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/commons-logging-1.0.4.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/commons-logging-api-1.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/commons-validator-1.3.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/dwr-1.1.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/ezmorph-1.0.3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/freemarker-2.3.16.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/json-lib-2.1-jdk15.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/juli-6.0.18.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/ognl-3.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/org.apache.felix.bundlerepository-1.2.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/org.apache.felix.framework-1.4.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/org.apache.felix.main-1.4.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/org.apache.felix.shell.tui-1.0.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/org.apache.felix.shell-1.0.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/oro-2.0.8.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/oval-1.31.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/plexus-container-default-1.0-alpha-10.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/plexus-utils-1.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/sitemesh-2.4.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/spring-beans-2.5.6.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/spring-context-2.5.6.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/spring-core-2.5.6.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/spring-test-2.5.6.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/spring-web-2.5.6.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/sslext-1.2-0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/struts2-codebehind-plugin-2.2.1.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/struts2-config-browser-plugin-2.2.1.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/struts2-convention-plugin-2.2.1.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/struts2-core-2.2.1.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/struts2-dojo-plugin-2.2.1.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/struts2-dwr-plugin-2.2.1.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/struts2-embeddedjsp-plugin-2.2.1.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/struts2-jasperreports-plugin-2.2.1.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/struts2-javatemplates-plugin-2.2.1.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/struts2-jfreechart-plugin-2.2.1.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/struts2-jsf-plugin-2.2.1.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/struts2-json-plugin-2.2.1.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/struts2-junit-plugin-2.2.1.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/struts2-osgi-admin-bundle-2.2.1.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/struts2-osgi-demo-bundle-2.2.1.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/struts2-osgi-plugin-2.2.1.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/struts2-oval-plugin-2.2.1.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/struts2-pell-multipart-plugin-2.2.1.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/struts2-plexus-plugin-2.2.1.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/struts2-portlet-plugin-2.2.1.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/struts2-rest-plugin-2.2.1.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/struts2-sitegraph-plugin-2.2.1.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/struts2-sitemesh-plugin-2.2.1.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/struts2-spring-plugin-2.2.1.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/struts2-struts1-plugin-2.2.1.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/struts2-testng-plugin-2.2.1.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/struts2-tiles-plugin-2.2.1.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/struts-core-1.3.10.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/testng-5.1-jdk15.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/tiles-api-2.0.6.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/tiles-core-2.0.6.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/tiles-jsp-2.0.6.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/velocity-1.6.3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/velocity-tools-1.3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/xpp3_min-1.1.3.4.O.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/xstream-1.2.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/struts-2.2.1.1-all/struts-2.2.1.1/lib/xwork-core-2.2.1.1.jar"/>
-	<classpathentry kind="lib" path="lib/cglib-2.2.2.jar"/>
-	<classpathentry kind="lib" path="lib/aspectj-1.6.11.jar"/>
-	<classpathentry kind="lib" path="C:/Users/xiatian/Downloads/aspectj/lib/aspectjrt.jar"/>
+	<classpathentry kind="lib" path="lib/aspectjrt.jar"/>
 	<classpathentry kind="output" path="bin"/>
 	<referencedentry kind="lib" path="lib/spring-beans-3.0.5.RELEASE.jar" sourcepath="C:/Users/xiatian/Downloads/spring-framework-3.1.0.M1-with-docs.zip"/>
 	<referencedentry kind="lib" path="lib/spring-core-3.0.5.RELEASE.jar" sourcepath="C:/Users/xiatian/Downloads/spring-framework-3.1.0.M1-with-docs.zip"/>

@@ -47,5 +47,11 @@ public class SyncClass {
 		new Thread(new MyRunnable(3)).start();
 		new Thread(new MyRunnable(4)).start();
 		new Thread(new MyRunnable(5)).start();
+		try {
+			new SyncClass().wait(5000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 }
