@@ -69,6 +69,7 @@
 	<classpathentry kind="lib" path="lib/XmlSchema-1.4.7.jar"/>
 	<classpathentry kind="lib" path="lib/xmlsec-1.4.4.jar"/>
 	<classpathentry kind="lib" path="lib/aspectjrt.jar"/>
+	<classpathentry kind="lib" path="lib/ehcache-core-2.4.4.jar"/>
 	<classpathentry kind="output" path="bin"/>
 	<referencedentry kind="lib" path="lib/spring-beans-3.0.5.RELEASE.jar" sourcepath="C:/Users/xiatian/Downloads/spring-framework-3.1.0.M1-with-docs.zip"/>
 	<referencedentry kind="lib" path="lib/spring-core-3.0.5.RELEASE.jar" sourcepath="C:/Users/xiatian/Downloads/spring-framework-3.1.0.M1-with-docs.zip"/>

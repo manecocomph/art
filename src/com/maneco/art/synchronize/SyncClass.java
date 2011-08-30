@@ -50,7 +50,6 @@ public class SyncClass {
 		try {
 			new SyncClass().wait(5000);
 		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
