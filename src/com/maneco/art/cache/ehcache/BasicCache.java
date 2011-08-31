@@ -20,7 +20,10 @@ public class BasicCache {
 		System.out.println(cache.get("eric"));
 		
 		try {
+			//cm.getStatus().
+			System.out.println(cache.getStatistics());
 			Thread.sleep(20000);
+			
 			System.out.println(cache.get("eric"));
 			Thread.sleep(40000);
 		} catch (InterruptedException e) {
