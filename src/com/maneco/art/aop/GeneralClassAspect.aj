@@ -1,7 +1,8 @@
 package com.maneco.art.aop;
 
 public aspect GeneralClassAspect {
-
+	public boolean GeneralClass.isRunning = false;
+	
 	//定义一个pointcut, 在调用GeneralClass的shout方法时候插入
 	pointcut pointcutShout():
 		call (String GeneralClass.shout());
@@ -31,20 +32,28 @@ public aspect GeneralClassAspect {
 		return 3;
 	}
 	
-	pointcut execsInProblemClass():
-		within(GeneralClass) && execution(* *(..));
+	pointcut execsInProblemClass(GeneralClass mm):
+		within(GeneralClass) && execution(* *(..)) && target(mm);
 	
-	before(): execsInProblemClass() {
+	before(GeneralClass mm): execsInProblemClass(mm) {
 		System.err.println("I am before any method in GeneralClass");
 		System.err.println("file name: \t" + thisJoinPointStaticPart.getSourceLocation().getFileName());
 	}
 	
-	Object around(): execsInProblemClass() {
+	
+	
+	public static void checkStatus(GeneralClass mm) {
+		System.err.println("---------" + mm);
+	}
+	
+	Object around(GeneralClass mm): execsInProblemClass(mm) {
 		System.out.println("\t\t\tI am before ");
 		Object obj = proceed();
 		System.out.println("\t\t\tI am after ");
-		
+		checkStatus(mm);
 		return obj;
 	}
+	
+	
 
 }
