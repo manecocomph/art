@@ -32,7 +32,7 @@ public aspect GeneralClassAspect {
 	}
 	
 	pointcut execsInProblemClass():
-		within(GeneralClass) && execution(* *(..));
+		within(GeneralClass) && execution(* s*(..));
 	
 	before(): execsInProblemClass() {
 		System.err.println("I am before any method in GeneralClass");
@@ -46,5 +46,32 @@ public aspect GeneralClassAspect {
 		
 		return obj;
 	}
+	
+	public String GeneralClass.name = "null";
+	
+	pointcut testCall(GeneralClass gc):
+		target(gc) && call (* testCallExec(..));
+	
+	before(GeneralClass gc): testCall(gc) {
+		System.out.println("before-call testCallExec .." + gc.name);
+	}
+	
+	pointcut testExec():
+		execution(* testCallExec(..));
+	
+	before(): testExec() {
+		System.out.println("before-exec testCallExec ..");
+	}
+	
+	before(): cflow(testExec()) {
+		System.out.println("in cflow");
+	}
+
+	public static void main(String[] args) {
+		GeneralClass gc = new GeneralClass();
+		gc.name = "qing";
+		gc.testCallExec("eric", 3);
+	}
+	
 
 }

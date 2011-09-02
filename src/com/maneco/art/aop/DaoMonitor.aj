@@ -1,7 +1,9 @@
 package com.maneco.art.aop;
 
-public aspect DaoMonitor {
+import com.maneco.peanut.dao.CategoryDao;
+import com.maneco.peanut.dao.RawPriceDao;
 
+public aspect DaoMonitor {
 	// define pointcut 
 	pointcut iceCountCall():
 		call(public * CategoryDao.*(..)) || call(public * RawPriceDao.*(..));
@@ -14,5 +16,16 @@ public aspect DaoMonitor {
 		// record this info
 		PerformanceRecorder.record(new PerformanceUnit(thisJoinPoint.getSignature().toShortString(), (endTime - startTime)));
 		return obj;
+	}
+	
+	private boolean CategoryDao.using = false;
+	
+	pointcut callAny(CategoryDao dao):
+		call (public * CategoryDao.*(..)) && target(dao);
+	
+	before(CategoryDao dao): callAny(dao) {
+		if (dao.using) {
+			System.out.println("now using");
+		}
 	}
 }

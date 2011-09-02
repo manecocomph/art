@@ -12,6 +12,11 @@ public class GeneralClass {
 		return 99;
 	}
 	
+	public String testCallExec(String str, int i) {
+		System.out.println("I am in GeneralClass" + str + "  " + i + name);
+		return "over";
+	}
+	
 	public static void main(String[] args) {
 		GeneralClass gc = new GeneralClass();
 		System.err.println("in main, invoke shout " + gc.shout());
