@@ -11,7 +11,7 @@ public aspect TesterAspect {
 	 * @param i
 	 */
 	pointcut intArg(int i):
-		args(i) && !this(TesterAspect);
+		args(i) && !this(TesterAspect) && within(AspectTester);
 	
 	before(int i): intArg(i) {
 		System.out.println(thisJoinPoint.getSignature());
@@ -53,6 +53,13 @@ public aspect TesterAspect {
 	// must !this(TesterAspect);
 	before(): inAdviceExec() && !this(TesterAspect) {
 		System.out.println("in advice exec");
+	}
+	
+	pointcut testCflowbelow():
+		cflowbelow(handleException());
+	
+	before(): testCflowbelow() {
+		System.out.println("in testCflowBelow");
 	}
 	/*13229010632  张俊 广州市朝阳区延安路广德小区 1栋1单元102室
 	498*/

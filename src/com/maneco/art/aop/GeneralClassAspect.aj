@@ -50,7 +50,7 @@ public aspect GeneralClassAspect {
 	
 	Object around(GeneralClass mm): execsInProblemClass(mm) {
 		System.out.println("\t\t\tI am before ");
-		//Object obj = proceed();
+		Object obj = proceed();
 		System.out.println("\t\t\tI am after ");
 		checkStatus(mm);
 		return obj;
