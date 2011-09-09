@@ -62,8 +62,8 @@ import com.sun.jna.NativeLibrary;
 	      System.out.println("Specify a capture device MRL, for example \"v4l2:///dev/video0\" or \"dshow://\"");
 	      System.exit(1);
 	    }
-	    NativeLibrary.addSearchPath("libvlc", "C:\\Program Files\\%20(x86)\\VideoLAN\\VLC");
-	    System.setProperty("jna.library.path", "C:\\Program Files (x86)\\VideoLAN\\VLC");
+	    NativeLibrary.addSearchPath("libvlc-path", "C:\\work");
+	    System.setProperty("jna.library.path", "C:\\work");
 	    SwingUtilities.invokeLater(new Runnable() {
 	      @Override
 	      public void run() {

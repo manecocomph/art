@@ -55,14 +55,13 @@ public aspect TesterAspect {
 		System.out.println("in advice exec");
 	}
 	
-	pointcut testCflowbelow():
+	/*pointcut testCflowbelow():
 		cflowbelow(handleException());
 	
 	before(): testCflowbelow() {
 		System.out.println("in testCflowBelow");
-	}
-	/*13229010632  张俊 广州市朝阳区延安路广德小区 1栋1单元102室
-	498*/
+	}*/
+	
 	/**
 	 * @param args
 	 */
