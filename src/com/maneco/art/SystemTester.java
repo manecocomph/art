@@ -7,6 +7,7 @@ public class SystemTester {
 	 */
 	public static void main(String[] args) {
 		System.err.println(System.identityHashCode(null));
+		
 		Runtime.getRuntime();
 	}
 
