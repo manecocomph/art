@@ -14,7 +14,6 @@ public class MyClassLoader extends ClassLoader {
 			System.out.println(clc.newInstance());
 			ClassLoader cl = clc.getClassLoader();
 			System.out.println(cl.toString());
-			
 			MyClassLoader.printAllClassLoader(clc);
 		} catch (ClassNotFoundException e) {
 			e.printStackTrace();
