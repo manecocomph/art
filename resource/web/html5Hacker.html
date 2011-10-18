@@ -1,0 +1,96 @@
+<input type='button' name='needClick' value='ClickMe' onclick='start()'/>
+
+<div>
+	<canvas id="wall" width="1000" height="600" style="padding:0;margin:0;border:0;"></canvas>
+</div>
+
+	<script language="JavaScript">
+		<!--
+		// global variables
+		var allWidth = 1000;
+		var allHeight = 600;
+		var allChars = initAllChars();
+		
+		
+		function start() {
+			var canvas = document.getElementById("wall");
+			
+			if (canvas.getContext) {
+				var ctx = canvas.getContext('2d');
+				//ctx.fillText("Sample String", 10, 50);
+				//ctx.fillText("Eric", 50, 60);
+				//ctx.fillText("qing", 70, 110);
+				
+				//setTimeout(, 2000);
+				ctx.font = "32pt Calibri";
+    			ctx.fillText("Hello World!", 333, 222);
+    			
+				drawCharRain(ctx);
+			}
+			
+		}
+		
+		function randomChar()
+		{
+		    var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+		    return possible.charAt(Math.floor(Math.random() * possible.length));
+		}
+		
+		function drawHackerRainImage(ctx) {
+			var imageObj = new Image();
+			ctx.drawImage(imageObj, 67, 89);
+			imageObj.src = "http://bak1.beareyes.com.cn/2/lib/200504/15/104/b7.jpg";
+			alert('done');
+		}
+		
+		function initAllChars() {
+			var allChars = new Array(10);
+			for (i = 0; i < 10; i++) {
+				allChars[i] = new Array(10);
+				for (j = 0; j < 10; j++) {
+					allChars[i][j] = new Array(3);
+					allChars[i][j][0] = randomChar();
+					allChars[i][j][1] = i * 100;
+					allChars[i][j][2] = j * 50;
+				}
+			}
+			
+			return allChars;
+		}
+		function drawCharRain(ctx) {
+			ctx.clearRect(0, 0, allWidth, allHeight);
+			ctx.fillStyle = "#000000";
+    		//ctx.fill();
+    		//ctx.beginPath();
+   			ctx.fillRect(0, 0, allWidth, allHeight);
+ 
+    		
+			
+			ctx.fillStyle = "#00B82E";
+   			//ctx.fill();
+    
+			for (i = 0; i < 10; i++) {
+				//alert(i);
+				for (j = 0; j < 10; j++) {
+					//allChars[i][j] = randomChar();
+					allChars[i][j][2] = allChars[i][j][2] + j * 3;
+					ctx.fillText(allChars[i][j][0], allChars[i][j][1], allChars[i][j][2] % 600);
+				}
+			}
+			
+			//alert('done');
+			setTimeout(function() {drawCharRain(ctx);}, 70);
+		}
+		
+		window.onload = function(){
+    var canvas = document.getElementById("wall");
+    var context = canvas.getContext("2d");
+ 
+    var x = 150;
+    var y = 100;
+    context.font = "40pt Calibri";
+    context.fillText("Hello World!", x, y);
+};
+		-->
+	</script>
+
