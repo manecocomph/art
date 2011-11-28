@@ -22,6 +22,7 @@ public class Indexer {
 	public static String INDEX_DIR = "C:/work/temp/index";
 	public static String FOLDER_ROOT = "C:/work/projects/art";
 	public static String INDEX_FIELD_FILE_NAME = "fileName";
+	public static String INDEX_FIELD_FILE_FULL_NAME = "fileFullName";
 	public static String INDEX_FIELD_FILE_CREATE_TIME = "createTime";
 	
 	public static void main(String[] args) {
@@ -67,6 +68,7 @@ public class Indexer {
 			if (file.isFile()) {
 				doc = new Document();
 				doc.add(new Field(Indexer.INDEX_FIELD_FILE_NAME, file.getName(), Field.Store.YES, Field.Index.ANALYZED));
+				doc.add(new Field(Indexer.INDEX_FIELD_FILE_FULL_NAME, file.toString(), Field.Store.YES, Field.Index.ANALYZED));
 				doc.add(new Field(Indexer.INDEX_FIELD_FILE_CREATE_TIME, String.valueOf(file.lastModified()), Field.Store.YES, Field.Index.NOT_ANALYZED));
 				docs.add(doc);
 			} else {

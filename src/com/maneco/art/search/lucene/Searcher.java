@@ -21,7 +21,7 @@ public class Searcher {
 	 */
 	public static void main(String[] args) {
 		try {
-			Searcher.search("RegionServlet.java");
+			Searcher.search("art");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -33,7 +33,7 @@ public class Searcher {
 		IndexSearcher is = new IndexSearcher(ir);
 		
 		Analyzer analyzer = new StandardAnalyzer(Version.LUCENE_35);
-		QueryParser parser = new QueryParser(Version.LUCENE_35, Indexer.INDEX_FIELD_FILE_NAME, analyzer);
+		QueryParser parser = new QueryParser(Version.LUCENE_35, Indexer.INDEX_FIELD_FILE_FULL_NAME, analyzer);
 		Query query = parser.parse(keywords);
 		TopDocs topDocs = is.search(query, null, 20);
 		System.out.println("total hits: " + topDocs.totalHits);
