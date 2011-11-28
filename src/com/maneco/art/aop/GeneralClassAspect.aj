@@ -56,8 +56,8 @@ public aspect GeneralClassAspect {
 		return obj;
 	}
 	
-	public String GeneralClass.name = "null";
 	
+	public String GeneralClass.name;
 	pointcut testCall(GeneralClass gc):
 		target(gc) && call (* testCallExec(..));
 	
