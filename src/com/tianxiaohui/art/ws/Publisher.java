@@ -9,8 +9,8 @@ public class Publisher {
 	public static boolean isOpen = false;
 	
 	public static void publishWithEndpoint() {
-		Endpoint.publish("/jaxwsEndpoint", new JaxwsProviderImpl());
-		Endpoint.publish("/anno", new WsAnnoProvider());
+		Endpoint.publish("http://localhost:9898/jaxwsEndpoint", new JaxwsProviderImpl());
+		//Endpoint.publish("http://localhost:9898/anno", new WsAnnoProvider());
 		System.err.println("publish service to: /cxf/jaxwsEndpoint");
 	}
 	
@@ -27,7 +27,7 @@ public class Publisher {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		Publisher.publishWithEndpoint();
 
 	}
 

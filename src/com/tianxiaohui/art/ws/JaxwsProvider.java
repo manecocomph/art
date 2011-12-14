@@ -2,7 +2,7 @@ package com.tianxiaohui.art.ws;
 
 import javax.jws.WebService;
 
-@WebService(targetNamespace="http://impl.service.peanut.maneco.com/")
+@WebService(targetNamespace="http://ws.art.tianxiaohui.com/")
 public interface JaxwsProvider {
 
 	//public String speakHi();

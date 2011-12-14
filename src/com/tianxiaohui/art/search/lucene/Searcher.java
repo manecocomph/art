@@ -1,6 +1,8 @@
 package com.tianxiaohui.art.search.lucene;
 
 import java.io.File;
+import java.util.HashSet;
+import java.util.Set;
 
 import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.analysis.standard.StandardAnalyzer;
@@ -32,7 +34,11 @@ public class Searcher {
 		IndexReader ir = IndexReader.open(directory);
 		IndexSearcher is = new IndexSearcher(ir);
 		
-		Analyzer analyzer = new StandardAnalyzer(Version.LUCENE_35);
+		Set<String> stopWords = new HashSet<String>();
+		stopWords.add("art");
+		stopWords.add("classloader");
+		
+		Analyzer analyzer = new StandardAnalyzer(Version.LUCENE_35, stopWords);
 		QueryParser parser = new QueryParser(Version.LUCENE_35, Indexer.INDEX_FIELD_FILE_FULL_NAME, analyzer);
 		Query query = parser.parse(keywords);
 		TopDocs topDocs = is.search(query, null, 20);
